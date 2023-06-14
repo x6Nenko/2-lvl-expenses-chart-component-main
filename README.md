@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-workflow-flex-grid-0205Cp1D6c)
+- Live Site URL: [Add live site URL here](https://x6nenko.github.io/expenses-chart-component-main/)
 
 ## My process
 
