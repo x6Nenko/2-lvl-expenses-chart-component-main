@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="header">
+    <div class="balance">
+      <p>My balance</p>
+      <h1>$921.48</h1>
+    </div>
+    <img src="./images/logo.svg" alt="logo">
+  </div>
+
+  <div class="main">
+    <div class="top-wrapper">
+      <h1>Spending - Last 7 days</h1>
+
+      <div class="chart">
+        <div class="mon">
+          <div class="column">
+            <span class="tooltiptext">$17.45</span>
+          </div>
+          <p>mon</p>
+        </div>
+
+        <div class="tue">
+          <div class="column">
+            <span class="tooltiptext">$34.91</span>
+          </div>
+          <p>tue</p>
+        </div>
+
+        <div class="wed">
+          <div class="column current">
+            <span class="tooltiptext">$52.36</span>
+          </div>
+          <p>wed</p>
+        </div>
+
+        <div class="thu">
+          <div class="column">
+            <span class="tooltiptext">$31.07</span>
+          </div>
+          <p>thu</p>
+        </div>
+
+        <div class="fri">
+          <div class="column">
+            <span class="tooltiptext">$23.39</span>
+          </div>
+          <p>fri</p>
+        </div>
+
+        <div class="sat">
+          <div class="column">
+            <span class="tooltiptext">$43.28</span>
+          </div>
+          <p>sat</p>
+        </div>
+
+        <div class="sun">
+          <div class="column">
+            <span class="tooltiptext">$25.48</span>
+          </div>
+          <p>sun</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="bottom-wrapper">
+      <p>Total this month</p>
+      <div class="total-container">
+        <h1>$478.33</h1>
+        <div class="last-month">
+          <p class="percent">+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/x6Nenko">Max I.</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
